@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-image: url(imagem_praia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.login a{
+    /* remover o sublinhad0 */
+    text-decoration: none;
+
+    /* aumentar o tamanho da fonte */
+    font-size: 35px;
+
+    /* todos os caracteres maisculos */
+    text-transform: uppercase;
+    
+    /* fonte da letra */
+    font-family: "Bebas Neue", sans-serif;
+
+    /* espessura da fonte */
+    font-weight: 900;
+    
+    /* cor da fonte */
+    color: aliceblue;
+
+    /* cor de fundo da fonte */
+        background-color: black;
+
+        /* espaçamento interno */
+        padding: 10px 30px;
+
+        /* #arredondar as bordas/arestas */
+        border-radius: 15px;
+    }
+
+h1{
+    text-transform: uppercase;
+    font-size: 110px;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacoes_de_viagem p{
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+#input_nome{
+    /* largura */
+    width: 550px;
+
+    /* altura */
+    height: 40px;
+
+    /* arredondar a borda/aresta */
+    border-radius: 15px;
+
+    /* remove a borda do input */
+    border-style: none;
+
+}   
+
+#input_email{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+
+.botao_login{
+width: 200px;
+height: 40px;
+color: aliceblue;
+background-color: black;
+border-radius: 15px;
+font-size: 30px;
+text-transform: uppercase;
+border-style: none;
+font-family: "Bebas Neue", sans-serif;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.entrar_email{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+.redes img{
+    width: 40px;
+    
+}
